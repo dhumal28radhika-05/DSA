@@ -11,3 +11,5 @@ def largest_digit(n):
         n = n // 10
 
     return largest
+n=int(input())
+print(largest_digit(n))
